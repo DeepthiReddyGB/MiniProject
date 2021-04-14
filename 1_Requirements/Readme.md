@@ -1,44 +1,47 @@
 # Requirements
 ## Introduction
- --- TBD 
+ Sorting of items is very important in any online apps because it will make searching of items very easy.
 
 ## Research
 ![Description](Link to Pic)
 -- Content 
 ## Cost and Features
-![Description](Link to Pic)
--- Content 
+ Feature Evolution :2 Week
+ Cost : Free of Cost
+
 ## Defining Our System
-    -- TBD
+    Sorts the cars according to price,name, color in both ascending and descending order. 
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-
-**TBD**
+Online app users
 
 ## What:
 
-**TBD**
+Sorts the items according to price,name and color.
 
 ## When:
 
-**TBD**
+Whenever the app user wants to search specifically according to price,color and name
 
 ## Where:
 
-**TBD**
+In mobiles or PC wherever we use online shopping apps
 
 ## How:
 
-**TBD**
+By providing the sort options
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+| Description | Status (Implemented/Future)
+|Prints the   |
+
+
 
 
 ##  Low level Requirements:
