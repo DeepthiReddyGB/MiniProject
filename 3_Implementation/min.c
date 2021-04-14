@@ -1,176 +1,105 @@
-#include "foo.h"
 #include<conio.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include "foo.h"
+int m;
 
 
-void sort(nodetype *l)
+int main()
 {
-nodetype *t;
-nodetype *s;
-int x,y;
-char d[50],f[50];
-t=l;
-while(t!=NULL)
+nodetype* left=NULL;
+nodetype* right=NULL;
+int ch,c;
+printf("=============WELCOME TO OLX==========\n");
+printf("enter 1 for insert\nenter 2 for sort\nenter 3 for exit");
+do
 {
-s=t->next;
-while(s!=NULL)
+printf("\nenter choice:");
+scanf("%d",&ch);
+switch(ch)
 {
-if(t->info>s->info)
+case 1:
+right=insert(right);
+if(left==NULL)
 {
-x=t->info;
-y=t->year;
-t->info=s->info;
-t->year=s->year;
-s->info=x;
-s->year=y;
-strcpy(d,t->name);
-strcpy(f,t->colour);
-strcpy(t->name,s->name);
-strcpy(t->colour,s->colour);
-strcpy(s->name,d);
-strcpy(s->colour,f);
+left=right;
 }
-s=s->next;
+break;
+case 2: while(1)
+       {
+	printf("\n 1.sort by price\n2.sort by year \n3.sort by name\n4.price dec sort\n5.exit;");
+	scanf("%d",&m);
+	switch(m)
+	{
+	case 1 : sort(left);
+		break;
+	case 2 : sortyear(left);
+		break;
+
+	case 3 : sortname(left);
+		break;
+	case 4 : desd(left);
+		break;
+	case 5 :	 exit(0);
+
+	default : printf("invalid option");
+	}
+	}
+case 3:
+exit(1);
+break;
+default:
+printf("invalid choice");
+break;
 }
-t=t->next;
-}
-t=l;
-while(t!=NULL)
-{
-printf("\t%d ->",t->info);
-printf("\t%d ->",t->year);
-printf("\t%s",t->colour);
-printf("\t%s\n",t->name);
-t=t->next;
-}
+printf("do u want continue press1:\n");
+scanf("%d",&c);
+}while(c==1);
 getch();
 }
- void sortyear(nodetype *l)
+nodetype* insert(nodetype *r)
 {
-nodetype *t;
-nodetype *s;
-int x,y;
-char d[50],f[50];
-t=l;
-while(t!=NULL)
+int n;
+nodetype *p;
+p=(nodetype*)malloc(sizeof(nodetype));
+printf("\nenter the name:\n");
+scanf("%s",p->name);
+printf("\nenter the colour:\n");
+scanf("\t%s",p->colour);
+printf("\nenter the price:\n");
+scanf("%d",&n);
+printf("enter the year:\n");
+scanf("%d",&p->year);
+if(p!=NULL)
 {
-s=t->next;
-while(s!=NULL)
+p->info=n;
+p->next=NULL;
+if(r==NULL)
 {
-if(t->year>s->year)
-{
-x=t->info;
-y=t->year;
-t->info=s->info;
-t->year=s->year;
-s->info=x;
-s->year=y;
-strcpy(d,t->name);
-strcpy(f,t->colour);
-strcpy(t->name,s->name);
-strcpy(t->colour,s->colour);
-strcpy(s->name,d);
-strcpy(s->colour,f);
+r=p;
 }
-s=s->next;
-}
-t=t->next;
-}
-t=l;
-while(t!=NULL)
+else
 {
-printf("\t%d ->",t->info);
-printf("\t%d ->",t->year);
-printf("\t%s",t->colour);
-printf("\t%s\n",t->name);
-t=t->next;
+r->next=p;
+r=p;
 }
-getch();
+return(r);
+}
+else
+{
+printf("not enough memory\n");
 }
 
- void sortname(nodetype *l)
-{
-nodetype *t;
-nodetype *s;
-int x,y;
-char d[50],f[50];
-t=l;
-while(t!=NULL)
-{
-s=t->next;
-while(s!=NULL)
-{
-if(t->name[0]>s->name[0])
-{
-x=t->info;
-y=t->year;
-t->info=s->info;
-t->year=s->year;
-s->info=x;
-s->year=y;
-strcpy(d,t->name);
-strcpy(f,t->colour);
-strcpy(t->name,s->name);
-strcpy(t->colour,s->colour);
-strcpy(s->name,d);
-strcpy(s->colour,f);
-}
-s=s->next;
-}
-t=t->next;
-}
-t=l;
-while(t!=NULL)
-{
-printf("\t%d ->",t->info);
-printf("\t%d ->",t->year);
-printf("\t%s",t->colour);
-printf("\t%s\n",t->name);
-t=t->next;
-}
-getch();
-}
+void sort(nodetype*);
+void desd(nodetype*);
+void sortyear(nodetype*);
+void sortname(nodetype*);
+void sortcolour(nodetype*);
 
-void desd(nodetype *l)
-{
-nodetype *t;
-nodetype *s;
-int x,y;
-char d[50],f[50];
-t=l;
-while(t!=NULL)
-{
-s=t->next;
-while(s!=NULL)
-{
-if(t->info<s->info)
-{
-x=t->info;
-y=t->year;
-t->info=s->info;
-t->year=s->year;
-s->info=x;
-s->year=y;
-strcpy(d,t->name);
-strcpy(f,t->colour);
-strcpy(t->name,s->name);
-strcpy(t->colour,s->colour);
-strcpy(s->name,d);
-strcpy(s->colour,f);
-}
-s=s->next;
-}
-t=t->next;
-}
-t=l;
-while(t!=NULL)
-{
-printf("\t%d ->",t->info);
-printf("\t%d->",t->year);
-printf("\t%s",t->colour);
-printf("\t%s\n",t->name);
-t=t->next;
-}
+return 0;
+
+
+
+getch();
 }
