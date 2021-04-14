@@ -7,7 +7,7 @@ OBJ=$(BIN)/min.o $(BIN)/foo.o
 all:$(FILE)
 
 $(FILE):$(OBJ)
-		gcc -o  $@ $^
+		gcc -o $@ $^
 
 $(BIN)/min.o:min.c
 		gcc -o $(BIN)/min.o -c $^
