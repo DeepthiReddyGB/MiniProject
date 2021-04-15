@@ -7,5 +7,5 @@
 
 [![Unit Testing - Unity](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/unity.yml/badge.svg)](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/unity.yml)
 
-[![CI](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/main.yml/badge.svg)](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/main.yml))
+[![CI](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/main.yml/badge.svg)](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/main.yml)
 
