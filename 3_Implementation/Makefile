@@ -1,64 +1,8 @@
-# Name of the project
-PROJECT_NAME = foo
+main.exe: min.c src/foo.c
+	gcc -Iinc ./src/foo.c ./min.c -o min.exe
 
-# Output directory
-BUILD = build
+run : min.exe
+	./min.exe
 
-# All source code files
-SRC = min.c\
-src/foo.c
-
-# All test source files
-TEST_SRC = src/foo.c\
-test/test_foo.c\
-unity/unity.c\
-
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
-#out
-
-# All include folders with header files
-INC	= -Iinc\
--Iunity\
-
-#Library Inlcudes
-#INCLUDE_LIBS = 
-INCLUDE_LIBS = -lcunit
-
-# Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out 
-#out
-
-# Document files
-DOCUMENTATION_OUTPUT = documentation/html
-
-# Default target built
-$(PROJECT_NAME):all
-
-# Run the target even if the matching name exists
-.PHONY: run clean test doc all
-
-all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
-#out
-
-# Call `make run` to run the application
-run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
-#	out
-
-# Document the code using Doxygen
-doc:
-	make -C ./documentation
-
-# Build and run the unit tests
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	./$(TEST_OUTPUT)
-
-# Remove all the built files, invoke by `make clean`
-clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
-
-# Create new build folder if not present
-$(BUILD):
-	mkdir build
+clean: 
+	rm *.exe
