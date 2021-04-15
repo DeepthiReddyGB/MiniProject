@@ -4,7 +4,8 @@
 
 ## Research
 ![](https://github.com/DeepthiReddyGB/MiniProject/blob/main/1_Requirements/flow%20chart.vpd.png)
--- Content 
+
+FLOW CHART
 ## Cost and Features
  Feature Evolution :2 Week.
  Cost : Free of Cost
