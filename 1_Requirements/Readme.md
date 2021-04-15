@@ -39,7 +39,7 @@ By providing the sort options
 ## High Level Requirements:
 
 |ID  | Description                                              | Status        |
-|----|------------- --------------------------------------------|---------------|
+|----|:------------ -------------------------------------------:|--------------:|
 |HR01|	User should be able to sort according to price           |	Implemented   |
 |HR02|		User should be able to sort according to name           |	Implemented   |
 |HR03|		User should be able to sort according to color          |	Implemented   |
