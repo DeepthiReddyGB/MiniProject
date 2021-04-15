@@ -34,6 +34,13 @@ int main()
   return UNITY_END();
 }
 
+void Sort(nodetype*) {
+   int expected[]={100, 123};
+   int list[]={123,100};
+   int* actual=Sort(list,2);
+   TEST_ASSERT_EQUAL_INT_ARRAY(expected,actual,2);
+  
+
 /* Write all the test functions 
 void test_add(void) {
   TEST_ASSERT_EQUAL(30, add(10, 20));

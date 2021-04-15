@@ -6,3 +6,4 @@ run : min.exe
 
 clean: 
 	rm *.exe
+
