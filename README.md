@@ -9,5 +9,5 @@
 
 [![CI](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/main.yml/badge.svg)](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/main.yml)
 
-[![CI](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/Makefile.yml/badge.svg)](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/Makefile.yml)
+[![CI Makefile](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/Makefile.yml/badge.svg)](https://github.com/DeepthiReddyGB/MiniProject/actions/workflows/Makefile.yml)
 
