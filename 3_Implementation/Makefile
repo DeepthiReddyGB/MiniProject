@@ -14,6 +14,7 @@ test/test_foo.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+#out
 
 # All include folders with header files
 INC	= -Iinc\
@@ -24,7 +25,8 @@ INC	= -Iinc\
 INCLUDE_LIBS = -lcunit
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out 
+#out
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -37,10 +39,12 @@ $(PROJECT_NAME):all
 
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+#out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
+#	out
 
 # Document the code using Doxygen
 doc:
