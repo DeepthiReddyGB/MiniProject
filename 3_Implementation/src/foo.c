@@ -4,7 +4,11 @@
 #include<stdlib.h>
 #include<string.h>
 
-
+/**
+ * @brief sort function
+ * 
+ * @param l 
+ */
 void sort(nodetype *l)
 {
 nodetype *t;
@@ -47,6 +51,11 @@ t=t->next;
 }
 getch();
 }
+/**
+ * @brief sortyear function
+ * 
+ * @param l 
+ */
  void sortyear(nodetype *l)
 {
 nodetype *t;
@@ -89,6 +98,11 @@ t=t->next;
 }
 getch();
 }
+/**
+ * @brief sort name function
+ * 
+ * @param l 
+ */
 
  void sortname(nodetype *l)
 {
@@ -132,7 +146,11 @@ t=t->next;
 }
 getch();
 }
-
+/**
+ * @brief sort descending order
+ * 
+ * @param l 
+ */
 void desd(nodetype *l)
 {
 nodetype *t;
