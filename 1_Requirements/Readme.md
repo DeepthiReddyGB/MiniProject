@@ -38,8 +38,13 @@ By providing the sort options
 # Detail requirements
 ## High Level Requirements:
 
-| Description | Status (Implemented/Future)
-|Prints the   |
+|ID  | Description                                              | Status        |
+|----|------------- --------------------------------------------|---------------|
+|HR01|	User should be able to sort according to price           |	Implemented   |
+|HR02|		User should be able to sort according to name           |	Implemented   |
+|HR03|		User should be able to sort according to color          |	Implemented   |
+|HR04|	User should be able to sort according to descending order|Implemented    |
+
 
 
 
