@@ -3,8 +3,9 @@
  Sorting of items is very important in any online apps because it will make searching of items very easy.
 
 ## Research
-![Description](Link to Pic)
--- Content 
+![](https://github.com/DeepthiReddyGB/MiniProject/blob/main/1_Requirements/flow%20chart.vpd.png)
+
+FLOW CHART
 ## Cost and Features
  Feature Evolution :2 Week.
  Cost : Free of Cost
@@ -12,7 +13,7 @@
 ## Defining Our System
     Sorts the cars according to price,name, color in both ascending and descending order. 
 ## SWOT ANALYSIS
-https://github.com/DeepthiReddyGB/MiniProject/blob/main/1_Requirements/Personal%20SWOT%20Analysis.jpg.png
+![](https://github.com/DeepthiReddyGB/MiniProject/blob/main/1_Requirements/Personal%20SWOT%20Analysis.jpg.png)
 # 4W&#39;s and 1&#39;H
 
 ## Who:
@@ -36,13 +37,20 @@ By providing the sort options
 
 # Detail requirements
 ## High Level Requirements:
-
-| Description | Status (Implemented/Future)
-|Prints the   |
+| ID            | Description                                               | Statu      |
+| ------------- |:---------------------------------------------------------:|-----------:|
+| H1            |User should be able to sort according to price             |Implemented |
+| H2            |User should be able to sort according to name              |Implemented |
+| H3            | 	User should be able to sort according to color           |Implemented |
+| H4            |	User should be able to sort according to descending order |Implemented |
 
 
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+| ID        | DESCRIPTION                           | STATUS      |
+| --------- |:-------------------------------------:| -----------:|
+| L1        | Data should be inserted first         | Implimented |
+| L2        | Data should be stored                 | Implimentaed|
+| L3        | Options should be provided to sort    | Implimented |
+
