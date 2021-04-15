@@ -5,7 +5,11 @@
 #include "foo.h"
 int m;
 
-
+/**
+ * @brief main function
+ * 
+ * @return int 
+ */
 int main()
 {
 nodetype* left=NULL;
@@ -13,6 +17,10 @@ nodetype* right=NULL;
 int ch,c;
 printf("=============WELCOME TO OLX==========\n");
 printf("enter 1 for insert\nenter 2 for sort\nenter 3 for exit");
+/**
+ * @brief do function and switch case
+ * 
+ */
 do
 {
 printf("\nenter choice:");
