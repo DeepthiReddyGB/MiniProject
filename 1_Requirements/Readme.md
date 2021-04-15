@@ -12,7 +12,7 @@
 ## Defining Our System
     Sorts the cars according to price,name, color in both ascending and descending order. 
 ## SWOT ANALYSIS
-![](https://github.com/DeepthiReddyGB/MiniProject/blob/main/1_Requirements/Readme.md)
+![](https://github.com/DeepthiReddyGB/MiniProject/blob/main/1_Requirements/Personal%20SWOT%20Analysis.jpg.png)
 # 4W&#39;s and 1&#39;H
 
 ## Who:
