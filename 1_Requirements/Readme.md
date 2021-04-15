@@ -13,7 +13,7 @@
     Sorts the cars according to price,name, color in both ascending and descending order. 
 ## SWOT ANALYSIS
 
-swot.html
+{"A?":"A","a":5,"d":"B","h":"www.canva.com","c":"DAAAAAAAAAA","i":"dx","b":1618452977653,"A":{"C":"#6a46c8"},"B":1024,"C":768}
 # 4W&#39;s and 1&#39;H
 
 ## Who:
