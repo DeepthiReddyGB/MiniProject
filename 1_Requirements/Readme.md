@@ -45,21 +45,12 @@ By providing the sort options
 | H4            |	User should be able to sort according to descending order |Implemented |
 
 
-|ID  | Description                                              | Status        |
-|----|:------------ -------------------------------------------:|--------------:|
-|HR01|	User should be able to sort according to price           |	Implemented   |
-|HR02|		User should be able to sort according to name           |	Implemented   |
-|HR03|		User should be able to sort according to color          |	Implemented   |
-|HR04|	User should be able to sort according to descending order|Implemented    |
-
-
-
 
 
 ##  Low level Requirements:
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| ID        | DESCRIPTION                           | STATUS      |
+| --------- |:-------------------------------------:| -----------:|
+| L1        | Data should be inserted first         | Implimented |
+| L2        | Data should be stored                 | Implimentaed|
+| L3        | Options should be provided to sort    | Implimented |
 
