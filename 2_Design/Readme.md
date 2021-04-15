@@ -5,7 +5,7 @@ ComponentDiagram
 ![](https://github.com/DeepthiReddyGB/MiniProject/blob/main/2_Design/flow%20chart.vpd.png)
 
 Use case Diagram
-![](Link to Pic)
+![](https://github.com/DeepthiReddyGB/MiniProject/blob/main/2_Design/sequence.vpd.png)
 
 ## Low Level Design 
 
