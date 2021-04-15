@@ -17,7 +17,7 @@
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-Online app users
+Online app users.
 
 ## What:
 
