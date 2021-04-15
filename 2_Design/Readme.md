@@ -1,10 +1,11 @@
 # Design
 
 ## High Level Design 
+ComponentDiagram
+![](https://github.com/DeepthiReddyGB/MiniProject/blob/main/2_Design/flow%20chart.vpd.png)
 
---- TBD Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](Link to Pic)
-![HighLevelBehaviouralDiagram](Link to Pic)
+Use case Diagram
+![](Link to Pic)
 
 ## Low Level Design 
 
