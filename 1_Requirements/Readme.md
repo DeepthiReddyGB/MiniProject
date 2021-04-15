@@ -37,6 +37,13 @@ By providing the sort options
 
 # Detail requirements
 ## High Level Requirements:
+| ID            | Description                                               | Statu      |
+| ------------- |:---------------------------------------------------------:|-----------:|
+| H1            |User should be able to sort according to price             |Implemented |
+| H2            |User should be able to sort according to name              |Implemented |
+| H3            | 	User should be able to sort according to color           |Implemented |
+| H4            |	User should be able to sort according to descending order |Implemented |
+
 
 |ID  | Description                                              | Status        |
 |----|:------------ -------------------------------------------:|--------------:|
